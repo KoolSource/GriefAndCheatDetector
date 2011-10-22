@@ -1,0 +1,43 @@
+name: GriefDetector
+main: me.koolsource.GriefDetector.GriefDetector
+version: 0.2
+authors:
+  - Happy0h
+  - Crystaliseninz
+website: www.koolsource.com
+description: >
+             Attempts to detect griefers and cheaters. Provides a means of players reporting griefs.
+commands:
+    report:
+        description: Alert admins of a grief or griefer
+        usage: Correct usage is /report [message] - Alert admins of a grief/griefer, automatically sends your current location
+    showgriefs:
+        description: Shows a list of current griefs
+        usage: Correct usage is /showgriefs  [page no]
+        permissions: 'griefdetector.viewgriefs'
+        aliases: ['sg']
+    tpgrief:
+        description: Teleport/warp to grief site of a particular grief
+        usage: Correct usage is /tpgrief [griefID]
+        permissions: 'griefdetector.tpgrief'
+        aliases: ['tpg']        
+    delgrief:
+        description: deletes a grief you deem to be resolved from the current griefs list
+        usage: Correct usage is /delgrief [griefID]
+        permissions: 'griefdetector.delgrief'
+        aliases: ['delg']
+    showcheats:
+        description: Shows a list of current suspicious activity
+        usage: Correct usage is /showcheats [page no]
+        permissions: 'griefdetector.viewcheats'
+        aliases: ['sc']    
+    tpcheat:
+        description: teleports to the location of the suspicious activity
+        usage: Correct usage is /tpcheat [cheatID]
+        permissions: 'griefdetector.tpcheat'
+        aliases: ['tpc']
+    delcheat:
+        description: Deletes a cheat report you deem to be resolved from the activity list
+        usage: Correct usage is /delcheat [cheatID]
+        permissions: 'griefdetector.delcheat'
+        aliases: ['delc']

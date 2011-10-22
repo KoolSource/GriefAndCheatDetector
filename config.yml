@@ -1,0 +1,53 @@
+########
+# 
+# KoolSource Grief and Hack detector
+# Please visit http://www.koolsource.com for more plugin releases, and gaming and web design related services.
+# 
+#
+########
+
+### NOTE: CONFIG MUST USE 4 SPACES FOR INDENTATION, NOT TABS. CONFIG IS IN YML FORMAT [http://en.wikipedia.org/wiki/YAML]
+
+
+####
+## GENERAL
+####
+
+sql-hostname: 
+sql-username: 
+sql-password: 
+sql-database-name:
+
+
+
+####
+## GRIEF DETECTING
+####
+
+# How often can grief reports be sent using /report (in seconds)
+report-time-limit: 30
+#max-burning: {amount: 100, timeframe: 30} 
+
+
+
+
+#tnt-area-size: 32 
+#tnt-max-in-area: 20
+
+
+####
+## CHEAT DETECTING
+####
+
+
+MINE_LIMITS:
+
+#    - {item_id : 56, amount: 12, time_frame: 30} # Copy and paste and follow the format to make a new rule
+#    - {item_id: 14, amount: 12, time_frame: 30}
+
+MINE_IN_DARK_lIMITS:
+#    - {item_id : 56, amount: 4, time_frame: 1} # diamond
+#    - {item_id : 14, amount: 2, time_frame: 1} # gold ore
+#    - {item_id : 15, amount: 6, time_frame: 1} # iron ore
+#    - {item_id : 1, amount: 64, time_frame: 3} # stone
+
